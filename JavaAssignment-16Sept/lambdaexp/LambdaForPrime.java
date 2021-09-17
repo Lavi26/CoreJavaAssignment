@@ -23,7 +23,7 @@ public class LambdaForPrime {
 			}
 			return check;
 		};
-		boolean result=prime.isPrime(0);
+		boolean result=prime.isPrime(7);
 		System.out.println("The given number is : "+(result==true?"Not Prime":"Prime"));
 	}
 
