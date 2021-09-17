@@ -8,10 +8,10 @@ public class LambdaForPalindrome {
 	public static void main(String args[]) {
 		
 		Palindrome plindromenum=(num) ->{
-			int temp=num;
+			int temp=num;                                            //store number to temp variable
 			int reversednum=0,remainder;
 			while(temp!=0) {
-				remainder=temp%10;
+				remainder=temp%10;                                   //get reverse and store into variable
 				reversednum=reversednum*10+ remainder;
 				temp=temp/10;
 			}
